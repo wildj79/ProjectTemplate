@@ -6,7 +6,10 @@ namespace ProjectTemplate
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var feature = "feature";
+            var awesomeSauce = $"This is my new awesome {feature}";
+
+            Console.WriteLine(awesomeSauce);
         }
     }
 }
